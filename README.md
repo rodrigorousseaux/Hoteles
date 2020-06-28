@@ -6,15 +6,21 @@ todos sus hoteles.
 Esta cadena, posee 30 destinos en distintas partes del mundo. De cada destino se conoce:
 
 Nombre: string
+
 Descripción: string
+
 País: string
+
 Temporada: char (I | V)
 
 En cada destino, existe un único hotel de 60 habitaciones.
 
 Los datos de cada habitación son:
+
 Número de habitación: entero entre (1 - 60)
+
 Cantidad de ocupantes que puede recibir
+
 Estado: char (D: disponible; O: ocupada)
 
 La cadena desea obtener un sistema que le permita a los empleados del call center gestionar las reservas
@@ -33,6 +39,7 @@ La cadena nos solicita que el sistema presente un menú que permita a los usuari
 mencionadas.
 
 Se pide:
+
 a. Obtener las estructuras que permitan representar y resolver la situación planteada.
 
 b. Desarrollar una función que permita realizar la reserva de una habitación.
